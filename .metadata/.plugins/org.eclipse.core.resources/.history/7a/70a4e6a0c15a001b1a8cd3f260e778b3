@@ -1,0 +1,31 @@
+<%@page import="study.helloweb.model.Member"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%
+	// 파라미터의 문자열 셋을 설정한다. (페이지 상단에서 최초 1회)
+	request.setCharacterEncoding("UTF-8");
+
+	// 현재 시스템에 가입되어 있는 회원정보를 가정하여 Beans객체 생성
+	Member member = new Member();
+	member.setUserId("jspuser");
+	member.setUserPw("123qwe!@#");
+	member.setUserName("JSP학생");
+	member.setEmail("jspuser@itpaper.co.kr");
+	
+	// 사용자 입력값
+	String userId = request.getParameter("user_id");
+	String userPw = request.getParameter("user_pw");
+%>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello JSP</title>
+</head>
+
+<body>
+    
+</body>
+
+</html>

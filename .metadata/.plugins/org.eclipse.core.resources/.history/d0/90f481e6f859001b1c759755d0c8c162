@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello JSP</title>
+</head>
+
+<body>
+    <h1>학과정보</h1>
+    
+    <!-- 검색 폼 영역 -->
+    <form method="post" action="department.jsp">
+    	<div>
+    		<label for="deptno">학과번호: </label>
+    		<input type="text" name="deptno" />
+    		<button type="submit">검색</button>
+    	</div>
+    </form>
+    
+    <!-- 결과표시 영역 -->
+</body>
+
+</html>

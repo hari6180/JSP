@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello JSP</title>
+</head>
+
+<body>
+	<h1>POST 전송</h1>   
+	<form name="myform" method="post" action="to.jsp">
+		<div>이름 : <input type="text" name="user_name" /></div>
+		<div>나이 : <input type="number" name="age" /></div>
+		<div>성별 : 
+			<label><input type='radio' name='gender' value='M'> 남자</label>
+			<label><input type='radio' name='gender' value='F' checked> 여자</label>
+		</div>
+		<div>취향 : 
+			<label><input type='radio' name='gender' value='M'> 남자</label>
+			<label><input type='radio' name='gender' value='F' checked> 여자</label>
+		</div>
+	</form>
+</body>
+
+</html>

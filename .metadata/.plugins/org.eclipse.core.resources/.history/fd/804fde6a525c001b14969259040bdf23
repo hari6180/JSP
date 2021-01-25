@@ -1,0 +1,42 @@
+package study.jsp.model1.helper;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class WebHelper {
+	/** 기본 인코딩 타입 설정 */
+	private String encType = "UTF-8";
+	
+	/** JSP의 request 내장 객체 */
+	// --> import javax.servlet.http.HttpServletRequest;
+	private HttpServletRequest request;
+	
+	/** JSP의 response 내장 객체 */
+	// --> import javax.servlet.http.HttpServletResponse;
+	private HttpServletResponse response;
+	
+	// --------------- 싱글톤 객체 생성 시작 ----------------------
+	private static WebHelper current;
+	
+	// JSP의 내장 객체는 일반 JAVA 클래스가 생성할 수 없기 때문에
+	// JSP 페이지로부터 request와 response 객체를 전달받아야 한다.
+	// --> import javax.servlet.http.HttpServletRequest;
+	// --> import javax.servlet.http.HttpServletResponse;
+	public static WebHelper getInstance(HttpServletRequest request, HttpServletResponse response) {
+		if (current == null) {
+			current = new WebHelper();
+		}
+		
+		// JSP 내장객체를 연결하기 위한 메서드를 호출한다.
+		current.init(request, response);
+		return current;
+	}
+	
+	public static void freeInstance() {
+		current = null;
+	}
+	
+}

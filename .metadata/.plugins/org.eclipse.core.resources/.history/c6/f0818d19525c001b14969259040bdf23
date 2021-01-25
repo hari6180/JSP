@@ -1,0 +1,23 @@
+package study.jsp.model1.helper;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class WebHelper {
+	/** 기본 인코딩 타입 설정 */
+	private String encType = "UTF-8";
+	
+	/** JSP의 request 내장 객체 */
+	// --> import javax.servlet.http.HttpServletRequest;
+	private HttpServletRequest request;
+	
+	/** JSP의 response 내장 객체 */
+	// --> import javax.servlet.http.HttpServletResponse;
+	private HttpServletResponse response;
+	
+	// --------------- 싱글톤 객체 생성 시작 ----------------------
+	private static WebHelper current;
+}

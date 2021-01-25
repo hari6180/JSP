@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello JSP</title>
+</head>
+
+<body>
+    
+    <form method="post" action="login_ok.jsp">
+    	<div>
+    		<input type="text" name="user_id" placeholder="아이디" />
+    	</div>
+    	<div>
+    		<input type="password" name="user_pw" placeholder="비밀번호" />
+    	</div>    
+    </form>
+</body>
+
+</html>

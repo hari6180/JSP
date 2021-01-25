@@ -1,0 +1,20 @@
+<%@page import="study.jsp.model1.helper.WebHelper"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%
+	// WebHelper의 객체를 생성하는 것 만으로 실행중인 페이지가 log에 기록된다.
+	WebHelper webHelper = WebHelper.getInstance(request, response);
+%>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello JSP</title>
+</head>
+
+<body>
+    
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+package study.jsp.model1.helper;
+
+public class WebHelper {
+
+}

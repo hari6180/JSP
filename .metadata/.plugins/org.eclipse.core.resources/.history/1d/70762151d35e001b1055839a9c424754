@@ -1,0 +1,6 @@
+package study.jsp.model2.controller;
+
+public class Member {
+	private String name;
+	private int age;
+}

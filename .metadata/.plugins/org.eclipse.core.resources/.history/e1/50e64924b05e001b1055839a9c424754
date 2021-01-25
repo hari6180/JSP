@@ -1,0 +1,46 @@
+package study.jsp.model2.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * HelloServletMain 서블릿 클래스.
+ * 모든 서블릿은 javax.servlet.http.HttpServlet을 상속받아야 한다.
+ */
+// 이 클래스를 URL에 노출시키기 위한 경로
+// --> http://localhost:8080/프로젝트명/HelloServlet
+@WebServlet("/HelloServlet")
+public class HelloServlet extends HttpServlet {
+	
+	// 객체 직렬화 아이디 --> 이클립스가 생성한 값을 사용하게 된다.
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * 생성자 (특별한 경우가 아니면 사용 안함)
+     */
+    public HelloServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

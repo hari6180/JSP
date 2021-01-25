@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello JSP</title>
+</head>
+
+<body>
+    <h1>세션 예제</h1>
+    
+    <form method="post" action="session_ok.jsp">
+    	<label for="user_input">저장할 내용 입력</label>
+    	<input type="text" name="user_input" id="user_input" />
+    	<button type="submit">세션 저장</button>
+    </form>
+</body>
+
+</html>

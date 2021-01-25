@@ -1,0 +1,146 @@
+[2021-01-20 13:16:01.223][DEBUG] log_jsp._jspService(log_jsp.java:125) Hello Debug Log
+[2021-01-20 13:16:01.227][INFO ] log_jsp._jspService(log_jsp.java:126) Hello Info log
+[2021-01-20 13:16:01.227][WARN ] log_jsp._jspService(log_jsp.java:127) Hello Waring log
+[2021-01-20 13:16:01.227][ERROR] log_jsp._jspService(log_jsp.java:128) Hello Error log
+[2021-01-20 14:21:53.755][DEBUG] HelloModel.printLog(HelloModel.java:14) HelloModel 객체가 생성되었습니다.
+[2021-01-22 10:46:35.958][DEBUG] WebHelper.init(WebHelper.java:67) [GET], http://localhost:8080/Model1/01_start/webhelper.jsp
+[2021-01-22 10:47:23.971][DEBUG] WebHelper.init(WebHelper.java:67) [GET], http://localhost:8080/Model1/01_start/webhelper.jsp?a=100&b=200
+[2021-01-22 11:02:05.635][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/after.jsp
+[2021-01-22 11:02:05.643][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> null
+[2021-01-22 11:02:17.235][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/before.jsp
+[2021-01-22 11:02:18.960][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/after.jsp
+[2021-01-22 11:02:18.960][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> null
+[2021-01-22 11:02:22.210][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/after.jsp
+[2021-01-22 11:02:22.211][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> null
+[2021-01-22 11:02:23.390][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/after.jsp
+[2021-01-22 11:02:23.391][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> null
+[2021-01-22 11:02:36.722][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/before.jsp
+[2021-01-22 11:02:37.681][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/after.jsp
+[2021-01-22 11:02:37.681][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> 이전 페이지로 돌아갑니다.
+[2021-01-22 11:02:45.743][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/before.jsp
+[2021-01-22 11:02:46.952][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/after.jsp
+[2021-01-22 11:02:46.952][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] webhelper.jsp >> null
+[2021-01-22 11:02:47.134][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/webhelper.jsp
+[2021-01-22 11:03:06.814][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/after.jsp
+[2021-01-22 11:03:06.815][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] webhelper.jsp >> Hello World
+[2021-01-22 11:03:08.417][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/01_start/webhelper.jsp
+[2021-01-22 11:06:33.061][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q01.jsp
+[2021-01-22 11:10:40.927][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q01.jsp
+[2021-01-22 11:14:20.851][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q01.jsp
+[2021-01-22 11:14:22.842][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q02.jsp?ans1=Backend
+[2021-01-22 11:18:38.463][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q03.jsp
+[2021-01-22 11:18:38.464][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> 첫 번째 문항에 대한 응답이 없습니다.
+[2021-01-22 11:18:59.491][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q01.jsp
+[2021-01-22 11:19:01.498][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q02.jsp?ans1=Backend
+[2021-01-22 11:19:04.859][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q03.jsp?ans1=Backend&ans2=%EC%8A%A4%ED%8F%AC%EC%B8%A0
+[2021-01-22 11:32:33.845][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q01.jsp
+[2021-01-22 11:32:35.709][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q02.jsp?ans1=Backend
+[2021-01-22 11:32:37.473][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/q03.jsp?ans1=Backend&ans2=%EC%82%AC%EC%A7%84%EC%B4%AC%EC%98%81
+[2021-01-22 11:32:39.112][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/02_get/result.jsp?ans1=Backend&ans2=%EC%82%AC%EC%A7%84%EC%B4%AC%EC%98%81&ans3=F
+[2021-01-22 11:45:23.518][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/03_post/q01.jsp
+[2021-01-22 11:55:48.506][DEBUG] WebHelper.init(WebHelper.java:69) [GET], http://localhost:8080/Model1/03_post/q01.jsp
+[2021-01-22 11:56:02.202][DEBUG] WebHelper.init(WebHelper.java:69) [POST], http://localhost:8080/Model1/03_post/q02.jsp
+[2021-01-22 11:56:02.205][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:02.206][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:02.206][DEBUG] RegexHelper.isKor(RegexHelper.java:91) (regex) -> `안녕`(은)는 한글로만 구성되어 있습니다.
+[2021-01-22 11:56:02.207][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:02.207][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:02.209][DEBUG] RegexHelper.isEmail(RegexHelper.java:140) (regex) -> `34ts@gf.s`(은)는 이메일 형식이 맞습니다.
+[2021-01-22 11:56:02.210][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `3443`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:02.210][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `3443`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:02.211][DEBUG] RegexHelper.isCellphone(RegexHelper.java:160) (regex) -> `3443`(은)는 핸드폰 번호 형식이 아닙니다.
+[2021-01-22 11:56:02.211][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `3443`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:02.212][DEBUG] RegexHelper.isTel(RegexHelper.java:177) (regex) -> `3443`(은)는 전화 번호 형식이 아닙니다.
+[2021-01-22 11:56:02.212][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> 이름은 한글만 입력 가능합니다.
+[2021-01-22 11:56:05.142][DEBUG] WebHelper.init(WebHelper.java:69) [POST], http://localhost:8080/Model1/03_post/q02.jsp
+[2021-01-22 11:56:05.143][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:05.143][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:05.143][DEBUG] RegexHelper.isKor(RegexHelper.java:91) (regex) -> `안녕`(은)는 한글로만 구성되어 있습니다.
+[2021-01-22 11:56:05.143][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:05.144][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:05.144][DEBUG] RegexHelper.isEmail(RegexHelper.java:140) (regex) -> `34ts@gf.s`(은)는 이메일 형식이 맞습니다.
+[2021-01-22 11:56:05.144][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `3443`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:05.144][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `3443`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:05.145][DEBUG] RegexHelper.isCellphone(RegexHelper.java:160) (regex) -> `3443`(은)는 핸드폰 번호 형식이 아닙니다.
+[2021-01-22 11:56:05.145][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `3443`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:05.145][DEBUG] RegexHelper.isTel(RegexHelper.java:177) (regex) -> `3443`(은)는 전화 번호 형식이 아닙니다.
+[2021-01-22 11:56:05.146][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> 이름은 한글만 입력 가능합니다.
+[2021-01-22 11:56:33.326][DEBUG] WebHelper.init(WebHelper.java:69) [POST], http://localhost:8080/Model1/03_post/q02.jsp
+[2021-01-22 11:56:33.326][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:33.327][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:33.327][DEBUG] RegexHelper.isKor(RegexHelper.java:91) (regex) -> `안녕`(은)는 한글로만 구성되어 있습니다.
+[2021-01-22 11:56:33.328][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:33.328][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:33.329][DEBUG] RegexHelper.isEmail(RegexHelper.java:140) (regex) -> `34ts@gf.s`(은)는 이메일 형식이 맞습니다.
+[2021-01-22 11:56:33.330][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `3443`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:33.330][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `3443`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:33.331][DEBUG] RegexHelper.isCellphone(RegexHelper.java:160) (regex) -> `3443`(은)는 핸드폰 번호 형식이 아닙니다.
+[2021-01-22 11:56:33.332][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `3443`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:33.332][DEBUG] RegexHelper.isTel(RegexHelper.java:177) (regex) -> `3443`(은)는 전화 번호 형식이 아닙니다.
+[2021-01-22 11:56:33.333][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> 연락처 형식이 잘못되었습니다.
+[2021-01-22 11:56:40.876][DEBUG] WebHelper.init(WebHelper.java:69) [POST], http://localhost:8080/Model1/03_post/q02.jsp
+[2021-01-22 11:56:40.876][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:40.877][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:40.877][DEBUG] RegexHelper.isKor(RegexHelper.java:91) (regex) -> `안녕`(은)는 한글로만 구성되어 있습니다.
+[2021-01-22 11:56:40.877][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:40.877][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:40.878][DEBUG] RegexHelper.isEmail(RegexHelper.java:140) (regex) -> `34ts@gf.s`(은)는 이메일 형식이 맞습니다.
+[2021-01-22 11:56:40.878][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `010-3443-222`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:40.878][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `010-3443-222`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:40.879][DEBUG] RegexHelper.isCellphone(RegexHelper.java:160) (regex) -> `010-3443-222`(은)는 핸드폰 번호 형식이 아닙니다.
+[2021-01-22 11:56:40.879][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `010-3443-222`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:40.879][DEBUG] RegexHelper.isTel(RegexHelper.java:177) (regex) -> `010-3443-222`(은)는 전화 번호 형식이 아닙니다.
+[2021-01-22 11:56:40.879][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> 연락처 형식이 잘못되었습니다.
+[2021-01-22 11:56:43.412][DEBUG] WebHelper.init(WebHelper.java:69) [POST], http://localhost:8080/Model1/03_post/q02.jsp
+[2021-01-22 11:56:43.413][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:43.413][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:43.413][DEBUG] RegexHelper.isKor(RegexHelper.java:91) (regex) -> `안녕`(은)는 한글로만 구성되어 있습니다.
+[2021-01-22 11:56:43.413][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:43.413][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:43.414][DEBUG] RegexHelper.isEmail(RegexHelper.java:140) (regex) -> `34ts@gf.s`(은)는 이메일 형식이 맞습니다.
+[2021-01-22 11:56:43.414][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `010-3443-2221`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:43.414][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `010-3443-2221`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:43.414][DEBUG] RegexHelper.isCellphone(RegexHelper.java:160) (regex) -> `010-3443-2221`(은)는 핸드폰 번호 형식이 아닙니다.
+[2021-01-22 11:56:43.414][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `010-3443-2221`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:43.414][DEBUG] RegexHelper.isTel(RegexHelper.java:177) (regex) -> `010-3443-2221`(은)는 전화 번호 형식이 아닙니다.
+[2021-01-22 11:56:43.415][DEBUG] WebHelper.redirect(WebHelper.java:114) --> [redirect] null >> 연락처 형식이 잘못되었습니다.
+[2021-01-22 11:56:56.386][DEBUG] WebHelper.init(WebHelper.java:69) [POST], http://localhost:8080/Model1/03_post/q02.jsp
+[2021-01-22 11:56:56.386][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:56.386][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:56.387][DEBUG] RegexHelper.isKor(RegexHelper.java:91) (regex) -> `안녕`(은)는 한글로만 구성되어 있습니다.
+[2021-01-22 11:56:56.387][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:56.387][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:56.387][DEBUG] RegexHelper.isEmail(RegexHelper.java:140) (regex) -> `34ts@gf.s`(은)는 이메일 형식이 맞습니다.
+[2021-01-22 11:56:56.387][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `01022223333`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:56.387][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `01022223333`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 11:56:56.388][DEBUG] RegexHelper.isCellphone(RegexHelper.java:158) (regex) -> `01022223333`(은)는 핸드폰 번호 형식이 맞습니다.
+[2021-01-22 12:02:03.025][DEBUG] WebHelper.init(WebHelper.java:69) [POST], http://localhost:8080/Model1/03_post/q03.jsp
+[2021-01-22 12:02:03.026][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:02:03.026][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:02:03.026][DEBUG] RegexHelper.isKor(RegexHelper.java:91) (regex) -> `안녕`(은)는 한글로만 구성되어 있습니다.
+[2021-01-22 12:02:03.026][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:02:03.026][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:02:03.027][DEBUG] RegexHelper.isEmail(RegexHelper.java:140) (regex) -> `34ts@gf.s`(은)는 이메일 형식이 맞습니다.
+[2021-01-22 12:02:03.027][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `01022223333`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:02:03.027][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `01022223333`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:02:03.027][DEBUG] RegexHelper.isCellphone(RegexHelper.java:158) (regex) -> `01022223333`(은)는 핸드폰 번호 형식이 맞습니다.
+[2021-01-22 12:07:04.629][DEBUG] WebHelper.init(WebHelper.java:69) [POST], http://localhost:8080/Model1/03_post/result.jsp
+[2021-01-22 12:07:04.630][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:04.630][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:04.630][DEBUG] RegexHelper.isKor(RegexHelper.java:91) (regex) -> `안녕`(은)는 한글로만 구성되어 있습니다.
+[2021-01-22 12:07:04.630][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:04.630][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:04.631][DEBUG] RegexHelper.isEmail(RegexHelper.java:140) (regex) -> `34ts@gf.s`(은)는 이메일 형식이 맞습니다.
+[2021-01-22 12:07:04.631][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `01022223333`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:04.631][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `01022223333`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:04.631][DEBUG] RegexHelper.isCellphone(RegexHelper.java:158) (regex) -> `01022223333`(은)는 핸드폰 번호 형식이 맞습니다.
+[2021-01-22 12:07:15.655][DEBUG] WebHelper.init(WebHelper.java:69) [POST], http://localhost:8080/Model1/03_post/result.jsp
+[2021-01-22 12:07:15.656][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:15.656][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `안녕`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:15.656][DEBUG] RegexHelper.isKor(RegexHelper.java:91) (regex) -> `안녕`(은)는 한글로만 구성되어 있습니다.
+[2021-01-22 12:07:15.656][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:15.656][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `34ts@gf.s`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:15.656][DEBUG] RegexHelper.isEmail(RegexHelper.java:140) (regex) -> `34ts@gf.s`(은)는 이메일 형식이 맞습니다.
+[2021-01-22 12:07:15.657][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `01022223333`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:15.657][DEBUG] RegexHelper.isValue(RegexHelper.java:40) (regex) -> `01022223333`(은)는 빈 문자열이 아닙니다.
+[2021-01-22 12:07:15.657][DEBUG] RegexHelper.isCellphone(RegexHelper.java:158) (regex) -> `01022223333`(은)는 핸드폰 번호 형식이 맞습니다.

@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%
+	// 쿠키값을 저장할 문자열
+	String isPopup = null;
+
+%>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello JSP</title>
+</head>
+
+<body>
+	<h1>팝업창 열기</h1>    
+	
+	<% if (isPopup ==null) { %>
+	<script type='text/javascript'>
+		// javascript 팝업창 열기
+		var popup = window.open('child.jsp', 'child-win', 'width=350, height=300');
+	
+	</script>
+</body>
+
+</html>
